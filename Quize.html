@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Quiz Factory 2.0 </title>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src = "script.js"></script>
+    </head>
+
+    <body>
+        <!-- Start -->
+        <div>
+            <p> Are you ready? </p>
+            <div class="container">
+                <p id = "code"></p><span id = "credits">??</span>
+            </div>
+<button>start</button>
+            <footer>
+            <input type = "text" placeholder = "Result...">
+            
+            <button style = "display: none;">submit</button>
+            </footer>
+        </div>
+        <!-- Result -->
+        <h1 id = "correct"> Correct </h1>
+        <h1 id = "wrong"> Wrong </h1>
+        <!-- End Screen -->
+        <div class = "container-end">
+            <h1> Thank you for playing! </h1>
+            <div class = "sub-container">
+                <span> 1 </span>
+                <p>
+                    var x = 5;<br>var y = 3;<br>console.log(x+++y);<br><br>// Output = <b>8</b>
+                </p> <hr>
+                <span> 2 </span>
+                <p>
+                    var foo = function foo()<br>{<br>&emsp;console.log(foo === foo);<br>};<br>foo();<br><br>// Output = <b>true</b>
+                </p> <hr>
+                <span> 3 </span>
+                <p>
+                    function aaa() {<br>return<br>{<br>test: 1<br>};<br>}<br>alert(typeof aaa());<br><br>// Output = <b>undefined</b>
+                </p> <hr>
+                <span> 4 </span>
+                <p style = "padding: 20px;">
+                    Number(\"1\") - 1 == 0;<br><br>// Output = <b>true</b>
+                </p> <hr>
+                <span> 5 </span>
+                <p style = "padding: 20px;">
+                    (true + false) > 2 + true;<br><br>// Output = <b>false</b>
+                </p> <hr>
+                <span> 6 </span>
+                <p style = "padding: 20px;">
+                    "1" - - "1";<br><br>// Output = <b>2</b>
+                </p> <hr>
+                <span> 7 </span>
+                <p style = "padding: 20px;">
+                    String('Hello') === 'Hello';<br><br>// Output = <b>true</b>
+                </p> <hr>
+                <span> 8 </span>
+                <p>
+                    var arr = [];<br>arr[0]  = 'a';<br>arr[1]  = 'b';<br>arr.foo = 'c';<br>alert(arr.length);<br><br>// Output = <b>2</b>
+                </p> <hr>
+                <span> 9 </span>
+                <p style = "padding: 20px;">
+                    10 > 9 > 8 === true;<br><br>// Output = <b>false</b>
+                </p> <hr>
+                <span> 10 </span>
+                <p style = "padding: 20px;">
+                    NaN === NaN;<br><br>// Output = <b>false</b>
+                </p>
+            </div>
+        </div>
+    </body>
+
+</html>
